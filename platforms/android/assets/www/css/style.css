@@ -1,0 +1,79 @@
+body#bodyImage {
+    background-image: url('../img/LaunchFinal.jpg');
+    background-size:cover;
+}
+div#getNums{ 
+    width:50%;
+    margin:auto;
+    background-color:#f0fc06;
+    margin-top:400px;
+    border-radius: 3px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:10px 10px 1px 10px;        
+}
+#getNums a{
+    font-size:20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.mui-appbar {
+    background-color:#0D3007;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+#logo {
+    width:85%;
+    padding-top:10px;
+}
+#generator {
+    background-image: url('../img/SolidDarker.jpg');
+    background-size:cover;
+}
+#ballsSection {
+    width:75%;
+    margin:auto;
+    text-align:center;
+    margin-top:50px;
+}
+.wBall{
+    width:100px;
+    height:100px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    margin:17px;
+    animation: rotation 2s infinite linear;
+    font-size:20px;
+}
+div#Reset {
+    font-size:20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    width:50%;
+    margin:auto;
+    background-color:#f0fc06;
+    margin-top:40px;
+    border-radius: 3px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:10px 10px 1px 10px; 
+    margin-bottom:20px; 
+}
+#Reset a{
+    color: #000000;
+    
+}
+#power {
+    background-color: #f0fc06;
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+a:active{
+    text-decoration: none;
+}
+

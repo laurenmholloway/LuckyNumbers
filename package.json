@@ -1,0 +1,13 @@
+{
+    "name": "com.shakermade.luckynumbers",
+    "version": "1.0.0",
+    "displayName": "Lucky Numbers",
+    "cordova": {
+        "platforms": [
+            "android"
+        ]
+    },
+    "dependencies": {
+        "cordova-android": "~6.2.3"
+    }
+}
