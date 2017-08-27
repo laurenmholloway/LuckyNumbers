@@ -41,6 +41,7 @@ div#getNums{
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
     margin:17px;
     animation: rotation 2s infinite linear;
+    font-size:20px;
 }
 div#Reset {
     font-size:20px;
@@ -52,7 +53,8 @@ div#Reset {
     margin-top:40px;
     border-radius: 3px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding:10px 10px 1px 10px;  
+    padding:10px 10px 1px 10px; 
+    margin-bottom:20px; 
 }
 #Reset a{
     color: #000000;

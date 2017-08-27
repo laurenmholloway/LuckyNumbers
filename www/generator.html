@@ -8,6 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <title>Lucky Numbers | Random Lottery Numbers Generator</title>
+        <script src="js/scripts.js"></script>
     </head>
     <body id="generator">
         <!--APP BAR-->
@@ -20,20 +21,20 @@
         <!--FIRST ROW OF BALLS-->
         <div id="ballsSection">
             <div>
-               <button class="mui-btn mui-btn--fab wBall">TAP</button>
-               <button class="mui-btn mui-btn--fab wBall">TAP</button>               
+               <button id="b1" class="mui-btn mui-btn--fab wBall" id="b1" onclick="generateWB('b1')">TAP</button>
+               <button class="mui-btn mui-btn--fab wBall" id="b2" onclick="generateWB('b2')">TAP</button>               
             </div>
 
         <!--SECOND ROW OF BALLS-->
             <div>
-                <button class="mui-btn mui-btn--fab wBall">TAP</button>
-                <button class="mui-btn mui-btn--fab wBall">TAP</button>               
+                <button class="mui-btn mui-btn--fab wBall" id="b3" onclick="generateWB('b3')">TAP</button>
+                <button class="mui-btn mui-btn--fab wBall" id="b4" onclick="generateWB('b4')">TAP</button>               
             </div>
 
         <!--THIRD ROW OF BALLS-->
             <div>
-                <button class="mui-btn mui-btn--fab wBall">TAP</button>
-                <button id="power" class="mui-btn mui-btn--fab wBall">TAP</button>               
+                <button class="mui-btn mui-btn--fab wBall" id="b5" onclick="generateWB('b5')">TAP</button>
+                <button id="power" class="mui-btn mui-btn--fab wBall" onclick="generatePB()">TAP</button>               
             </div>
         </div>
 
