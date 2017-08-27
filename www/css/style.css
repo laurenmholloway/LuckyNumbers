@@ -73,4 +73,7 @@ div#Reset {
 				-webkit-transform: rotate(359deg);
 		}
 }
+a:active{
+    text-decoration: none;
+}
 
