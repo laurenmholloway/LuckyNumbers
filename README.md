@@ -1,14 +1,3 @@
-# A Blank PhoneGap App
-
-## Usage
-
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
+# Lucky Numbers
+Lucky Numbers is a random number generator based on the rules of the Powerball Lottery game.
 
